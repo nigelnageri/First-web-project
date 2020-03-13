@@ -1,0 +1,90 @@
+body{
+    background:#434343;
+}
+.footer{
+    background: #171a1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    background: #434343;
+    color: white;
+    margin-outside:0px;
+    align-items: center;
+}
+.row{
+    width: 100%;
+    height: auto;
+}
+image{
+    margin:0;
+}
+
+h3{
+    color:white ;
+}
+.differ1{
+    background: #171a1d;
+}
+hr{
+    color:white;
+    height: 1px;
+    margin: 0;
+}
+.forms{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.contacts{
+    width:40%;
+    padding:20px;
+    background: #171a1d;
+}
+h2{
+    text-align:center;
+    color:white;
+}
+input[type=text],input[type=email],input[type=tel]{
+    width: 100%;
+    padding:12px 20px;
+    margin:8px 0;
+    box-sizing: border-box;
+    border:4px solid darkgrey;
+    border-radius: 10px;
+    background: silver;
+    color:blue;
+}
+textarea{
+    width: 100%;
+    height:200px;
+    padding:12px 20px;
+    margin:8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background:silver;
+    resize:none;
+    color:blue;
+}
+.image{
+    height: auto;
+    width:50%;
+    margin-outside:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-sm-6{
+    margin: 0px;
+
+}
